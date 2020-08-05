@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #1e664c;
+}
+
+#hero {
+    margin-top: 100px;
+    background-color: #651e38;
+    padding: 100px 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+
+}
+
+#hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 56px;
+
+}
