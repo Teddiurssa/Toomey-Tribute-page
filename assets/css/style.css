@@ -1,32 +1,127 @@
+/* ===== Basic Styles ======*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body,
-html {
-    background-color: #1e664c;
+html,
+body {
+    background-color: #651e38;
+   
 }
-
+/* ===== Hero Styles ======*/
 #hero {
-    margin-top: 100px;
     background-color: #651e38;
     padding: 100px 0;
     font-family: 'Raleway', sans-serif;
-
 }
 
 #hero h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
-
+    font-size: 45px;
+    margin-bottom: 50px;
 }
 
 #hero h1 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 600;
-    font-size: 56px;
+    font-size: 65px;
+    margin-top: 100px;
+}
+
+#hero img {
+    border: 15px solid #fff;
+}
+
+@media (max-width: 375px) {
+    #hero {
+        padding: 50px 0;
+    }
+    #hero h1 {
+        font-weight: 600;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    #hero h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+    }
+
+    #hero img {
+        border: 5px solid #fff;
+    }
+}
+
+/* ===== Info Styles ======*/
+#info {
+    background-color: #ffffff;
+}
+
+#info h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 30px;
+}
+
+#info p {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#info table {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+@media (max-width: 375px) {
+    #info h2 {
+        font-size: 30px;
+    }
+}
+
+/* ===== Gallery Styles ======*/
+#gallery {
+    background-color: #1e664c;
+}
+
+#gallery h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-block: 30px;
+    font-size: 40px;
+}
+
+#gallery img {
+    padding: 10px;
+}
+
+/* ===== footer Styles ======*/
+footer {
+    padding-top: 50px;
+    background-color: #651e38;
+    font-family: 'Raleway', sans-serif;
+     }
+
+footer .contact {
+    font-size: 20px;
+  }
+@media (max-width: 375px) {
+    footer {
+        padding-top: 20px;
+    }
+    
+    footer .copyright {
+        font-size: 10px;
+    }
 
 }
